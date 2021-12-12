@@ -27,5 +27,5 @@ Vehicle:
 + POST /vehicles/vehicle/ - create a new vehicle
 + PUT /vehicles/vehicle/<vehicle_id>/ - entire update of the vehicle's information
 + PATCH /vehicles/vehicle/<vehicle_id>/ - partial update of the vehicle's information
-+ POST /vehicles/set_driver/<vehicle_id>/ - set vehicle's driver / set vehicle's driver (by providing body parameter: `driver_id`)
++ POST /vehicles/set_driver/<vehicle_id>/ - set vehicle's driver / reset vehicle's driver (by providing body parameter: `driver_id`)
 + DELETE /vehicles/vehicle/<vehicle_id>/ - delete the vehicle
